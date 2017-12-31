@@ -10,14 +10,20 @@ void resuelveEjercicio2() {
 
 	cout << endl << endl << "Ejercicio 2:" << endl;
 	cout << "  A ====================================================================================== " 
-        << endl << "\tNOT_Int: " << (~entero1010) 
-        << endl << "\tNOT_Bin: " << binaryFromInt(~entero1010);
+        << endl << "\tNOT_Dec: " << (~entero1010)
+        << endl << "\tNOT_Bin: " << binaryFromInt(~entero1010)
+        << endl << "\tLos resultados eran los esperados."
+        << endl << "\tEl signo (-) en un entero no es lo mismo que el NOT"
+        << endl << "\tNOT hace complemento a 1 y (-) hace complemento a 2" << endl;
 	cout << "  B ====================================================================================== " 
         << endl << "\t<< 1: " << (entero1010 << 1) 
         << "\tBin << 1: " << binaryFromInt(entero1010 << 1);
 	cout << "\t<< 2: " << (entero1010 << 2) << "\tBin << 2: " << binaryFromInt(entero1010 << 2);
 	cout << "\t<< 4: " << (entero1010 << 4) << "\tBin << 4: " << binaryFromInt(entero1010 << 4);
-	cout << "\t<< 6: " << (entero1010 << 6) << "\tBin << 4: " << binaryFromInt(entero1010 << 6);
+    cout << "\t<< 6: " << (entero1010 << 6) << "\tBin << 4: " << binaryFromInt(entero1010 << 6);
+    cout << endl << "\tEn base 2 añade 0 por la derecha tantas veces como indique el numero de la derecha";
+    cout << endl << "\tEl operador de Shift Logico en decimal equivale a multiplicar por 2 el numero";
+    cout << endl << "\ttantas veces como indique el numero de la derecha" << endl;
 
 	cout << "  C ====================================================================================== " << endl << "        binAsInt: ";
 
