@@ -1,16 +1,20 @@
 #include "ejercicio2.h"
 #include <common.h>
 #include <iostream>
-
+using namespace std;
 
 
 void resuelveEjercicio2() {
 	int entero1010 = intFromBinary("1010");
 
 
-	cout << endl << "Ejercicio 2:" << endl;
-	cout << "  A ====================================================================================== " << endl << "\tNOT_Int: " << (~entero1010) << endl << "\tNOT_Bin: " << binaryFromInt(~entero1010);
-	cout << "  B ====================================================================================== " << endl << "\t<< 1: " << (entero1010 << 1) << "\tBin << 1: " << binaryFromInt(entero1010 << 1);
+	cout << endl << endl << "Ejercicio 2:" << endl;
+	cout << "  A ====================================================================================== " 
+        << endl << "\tNOT_Int: " << (~entero1010) 
+        << endl << "\tNOT_Bin: " << binaryFromInt(~entero1010);
+	cout << "  B ====================================================================================== " 
+        << endl << "\t<< 1: " << (entero1010 << 1) 
+        << "\tBin << 1: " << binaryFromInt(entero1010 << 1);
 	cout << "\t<< 2: " << (entero1010 << 2) << "\tBin << 2: " << binaryFromInt(entero1010 << 2);
 	cout << "\t<< 4: " << (entero1010 << 4) << "\tBin << 4: " << binaryFromInt(entero1010 << 4);
 	cout << "\t<< 6: " << (entero1010 << 6) << "\tBin << 4: " << binaryFromInt(entero1010 << 6);

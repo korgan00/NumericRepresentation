@@ -24,6 +24,12 @@
     <ClInclude Include="include\ejercicio2.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="include\ejercicio3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ejercicio4.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\common.cpp">
@@ -36,6 +42,12 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\ejercicio2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ejercicio3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ejercicio4.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

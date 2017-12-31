@@ -129,10 +129,14 @@
     <ClInclude Include="include\ejercicio2.h" />
     <ClInclude Include="include\common.h" />
     <ClInclude Include="include\ejercicio1.h" />
+    <ClInclude Include="include\ejercicio3.h" />
+    <ClInclude Include="include\ejercicio4.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\ejercicio2.cpp" />
     <ClCompile Include="src\ejercicio1.cpp" />
+    <ClCompile Include="src\ejercicio3.cpp" />
+    <ClCompile Include="src\ejercicio4.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\common.cpp" />
   </ItemGroup>

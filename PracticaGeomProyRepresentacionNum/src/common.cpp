@@ -37,9 +37,52 @@ string binaryFromInt(int x) {
 		binary.insert(binary.begin(), 1, currentChar);
 	}
 
+    if (binary == "") {
+        binary = "0";
+    }
+
 	binary.insert(binary.end(), 1, '\n');
 
 	return binary;
+}
+
+string binaryFromChar(char c) {
+    unsigned char currentNum = c;
+    char currentChar = '0';
+    string binary;
+
+    while (currentNum != 0) {
+        currentChar = (currentNum & 1) + ZERO;
+        currentNum >>= 1;
+        binary.insert(binary.begin(), 1, currentChar);
+    }
+
+    if (binary == "") {
+        binary = "0";
+    }
+
+    binary.insert(binary.end(), 1, '\n');
+
+    return binary;
+}
+string binaryFromUnsignedChar(unsigned char c) {
+    unsigned char currentNum = c;
+    char currentChar = '0';
+    string binary;
+
+    while (currentNum != 0) {
+        currentChar = (currentNum & 1) + ZERO;
+        currentNum >>= 1;
+        binary.insert(binary.begin(), 1, currentChar);
+    }
+
+    if (binary == "") {
+        binary = "0";
+    }
+
+    binary.insert(binary.end(), 1, '\n');
+
+    return binary;
 }
 
 

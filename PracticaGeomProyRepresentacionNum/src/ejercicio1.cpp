@@ -4,6 +4,6 @@
 using namespace std;
 
 void resuelveEjercicio1() {
-	cout << endl << "Ejercicio 1:" << endl;
-	cout << "1010 en base2 corresponde al " << intFromBinary("1010") << endl;
+	cout << endl << endl << "Ejercicio 1:" << endl;
+	cout << "\t1010 en base2 corresponde al " << intFromBinary("1010") << endl;
 }
